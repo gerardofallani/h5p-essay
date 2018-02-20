@@ -46,13 +46,13 @@
         "label": "Parole chiave",
         "fields": [
           {
-            "label": "Parole chiave",
+            "label": "Parola chiave",
             "description": "Parola chiave o frase da cercare. Usa un asterisco '*' come carta jolly per significare uno o più caratteri."
           },
           {
-            "label": "Alternative",
-            "description": "Se vuoi, puoi aggiungere delle alternative a questa parola chiave. Per esempio, per una 'nazione' puoi indicare alternative come 'stato', 'Paese' ecc. Se lo studente utilizza le alternative qui specificate riceverà il punteggio che gli spetta per la risposta giusta.",
-            "entity": "Variation",
+            "label": "Alternative alla parola chiave",
+            "description": "Se vuoi, puoi aggiungere alternative a questa parola chiave. Per esempio, per una 'nazione' puoi indicare alternative come 'stato', 'Paese' ecc. Se lo studente utilizza le alternative qui specificate riceverà il punteggio che gli spetta per la risposta giusta.",
+            "entity": "Alternativa",
             "field": {
               "label": "Parola chiave alternativa"
             }
@@ -186,8 +186,8 @@
           ]
         },
         {
-          "label": "Non considerare Tralascia errori (meno gravi - minor)",
-          "description": "Consente di specificare se l'opzione \"Tralascia errori\" (minor mistakes) debba essere attiva su tutte le parole chiave.",
+          "label": "Non considerare \"Tralascia gli errori meno gravi\"",
+          "description": "Consente di disattivare l'opzione indicata solo sulle parole chiave.",
           "options": [
             {
               "label": "Abilita"
@@ -232,7 +232,7 @@
     {
       "label": "Salva messaggio",
       "description": "Messaggio per indicare che il testo è stato salvato",
-      "default": "salvato"
+      "default": "Salvato"
     }
   ]
 }
