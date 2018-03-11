@@ -185,8 +185,8 @@
           "description": "Se selezionato, gli studenti vedranno soltanto il feedback che hai fornito per le parole chiave, ma non avranno nessun punteggio."
         },
         {
-          "label": "Points in host environment",
-          "description": "Used to award points in host environment merely for answering (not shown to learner)."
+          "label": "Punti assegnati in piattaforma",
+          "description": "Usato per assegnare punti in piattaforma per il solo fatto di aver risposto (non mostrato allo studente)."
         },
         {
           "label": "Percentuale di superamento",
@@ -198,7 +198,7 @@
         },
         {
           "label": "Non considerare \"Maiuscolo/minuscolo\"",
-          "description": "Consente di specificare se l'opzione \"Maiuscolo/minuscolo\" debba essere attiva su tutte le parole chiave.",
+          "description": "Consente di specificare se l'opzione suindicata debba essere attiva su tutte le parole chiave.",
           "options": [
             {
               "label": "Abilita"
@@ -210,7 +210,7 @@
         },
         {
           "label": "Non considerare \"Tralascia gli errori meno gravi\"",
-          "description": "Consente di specificare se l'opzione \"Tralascia gli errori meno gravi\" debba essere attiva su tutte le parole chiave.",
+          "description": "Consente di specificare se l'opzione suindicata debba essere attiva su tutte le parole chiave.",
           "options": [
             {
               "label": "Abilita"
